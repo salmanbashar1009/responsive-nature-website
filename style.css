@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary: #07331d;
+    --secondary: #f8ef6d;
+    --white:  #f1f5f4;
+
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    color: var(--primary);
+}
+
+#main{
+    background-image: url("./img/main.png");
+    min-height: 70vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-list a{
+    color: white;
+}
+
+.btn{
+    padding: 12px 20px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-secondary{
+    border: 2px solid var(--white);
+    color: white;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.btn-primary{
+    border: none;
+    background: var(--secondary);
+    color: var(--primary);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+.btn-primary:hover{
+    background:var(--primary);
+    color: var(--secondary);
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: white;
+}
+
+
+.main-content .intro-heading{
+    font-size: 50px;
+}
+
+.main-content .main-heading{
+    font-size: 120px;
+    margin-top: -30px;
+}
+
+.main-content p{
+    max-width: 320px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 20px;
+
+}
