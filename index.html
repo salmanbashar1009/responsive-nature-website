@@ -17,9 +17,10 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">contact</a></li>        
-                    <li ><button class="btn btn-secondary">+880-1922-700031</button></li>        
+                    <li><a href="#">contact</a></li>
+                    <li><button class="btn btn-secondary">+880-1922-700031</button></li>
                 </ul>
+                <img src="./img/menu.svg" alt="" class="menu-btn">
             </nav>
             <div class="main-content">
                 <h2 class="intro-heading">we all love</h2>
@@ -106,6 +107,14 @@
             <p>Nature loved by Taylor Moore</p>
         </div>
     </footer>
+    <script>
+        const navBtn = document.querySelector('.menu-btn');
+        const navList = document.querySelector('.nav-list');
+
+        navBtn.addEventListener('click', function () {
+            navList.classList.toggle("active");
+        });
+    </script>
 </body>
 
 </html>
