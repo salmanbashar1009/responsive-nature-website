@@ -168,6 +168,38 @@ nav {
     transform: scale(1.05);
 }
 
+/* Testomonial seciton styles */
+#testimonial{
+    background: #eae6f0;
+}
+
+#testimonial .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    gap: 30px;
+    padding: 50px 16px;
+}
+
+#testimonial h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Forum", sans-serif;
+    padding: 16px
+}
+
+#testimonial .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    
+}
+
 
 @media screen and (max-width: 550px) {
     .menu-btn {
